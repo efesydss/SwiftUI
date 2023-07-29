@@ -21,7 +21,7 @@ struct Anasayfa: View {
     var body: some View {
         
         NavigationStack{
-            List(){
+        List(){
                 ForEach(viewModel.kisilerListesi){kisi in
                     NavigationLink(destination: KisiDetaySayfa(kisi: kisi)){
                         KisilerSatir(kisi:kisi)
