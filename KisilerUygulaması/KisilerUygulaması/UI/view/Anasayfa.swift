@@ -9,6 +9,7 @@ import SwiftUI
 
 struct Anasayfa: View {
    
+    
     @State private var aramaKelimesi = ""
     //bu sayfa veri ile besleniyorsa örn db den gelen verilerle ui doluyorsa mutlaka obserable object gereklidir...
     @ObservedObject var viewModel = AnasayfaViewModel()//çünkü veri gelecek state gibi online dinleyecez ya ondan
